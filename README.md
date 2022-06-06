@@ -69,21 +69,24 @@ While it's fantasitc how excited both I and my investor are in my business ventu
 
 ### Station 81 Data:
 
-The reported June and December temperature information above was tallied from the entire dataset which contained multiple entries per day from each of the 9 stations on Oahu. The number of data points was inconsistent accross the entire set (some of the 9 stations reported every day, some didn't), but probably still gave us pretty good overall averages.  If we look at just the entries from Station 81 (USC00519281), we find that last year's temps ranged from a min temp of 59 to a max temp of 83 with a daily average of 73 degress. The frequency of each temp is charted in Fig. 3 on the right.
+The reported June and December temperature information above was tallied from the entire dataset which contained multiple entries per day from each of the 9 stations on Oahu. The number of data points was inconsistent accross the entire set (some of the 9 stations reported every day, some didn't), but probably still gave us pretty good overall averages.  If we look at just the entries from Station 81 (USC00519281), we find that last year's temps ranged from a min temp of 59 to a max temp of 83 with a daily average of 73 degress. The frequency of each temp is charted in Fig. 4 on the right.
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-PrcpFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Precipitation Frequencies">
 
-The Station 81 (USC00519281) average daily precipiation for the past year was .2, with a max of 2.98 and a zero prcp minimum. Frequencies of those numbers are charted in Fig 4 on the right.
+The Station 81 (USC00519281) average daily precipiation for the past year was .2, with a max of 2.98 and a zero prcp minimum. Frequencies of those numbers are charted in Fig 5 on the right.
+
+At right: Figures 5 and 6, Station 81 (USC00519281) reported observed temps and precipitation (binned).
 
 Furthermore, limiting and charing the reported precipiation for each day in the past year at our target station reveals a clearer picture of rainfall in this location:
 
 <br clear="all" />
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation81.png" align="left" width="636" height="150" alt ="graphic: Station 81 Precipitation">
 
+Fig 6. Station 81 (USC00519281): Reported Daily Preciptiation from 8/23/2016 - 8/23/2017
 
 <br clear="all" />
 
-## Summary & Further Considerations
+## Initial Analysis Summary & Further Considerations
 
 The analysis so far has revealed some great information about the station location we are most interested in for the Surf & Shake Shop and about Oahu weather conditions in general.  So far, there are no alarming issues.  For further consideration for our business plan though, we might also want to consider the times of the reported temperatures, tide times, and water temperatures.  These are the killer stats for surf enthusiasts!  If we drilled down enough on those stats, we might find ways to tailor our business plan for even greater success - everyone loves ice cream for sure... but coffee, donuts, and wet suit sales and/or rentals might also be great things to offer.  If the tide times match the rain times and the water hasn't yet heated up, we'll need more than ice cream! 
 
