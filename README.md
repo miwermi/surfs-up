@@ -40,4 +40,13 @@ The query revealed exactly what I wanted to see, a list of station ids and the n
      ('USC00517948', 1372),
      ('USC00518838', 511)]
 
-Station USC00519281, with 2772 points of data, is the station with the most points of data - AND it's a great surf spot! This is where we want to open the Surf & Shake Shop. 
+Station USC00519281, with 2772 points of data, is the station with the most points of data - AND it's a great surf spot! This is where we want to open the Surf & Shake Shop.  Next, my investor wanted me to created some temperature charts.  
+
+First we looked at June and December averages from the entire dataset:
+
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/JuneTemps.png" align="left" width="186" height="262" alt ="graphic: June Temps">
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/DecemberTemps.png" align="left" width="186" height="262" alt ="graphic: Dec Temps">
+
+Figs. 2 & 3 June & December Temperature Details
+
+
