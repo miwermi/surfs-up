@@ -57,7 +57,8 @@ First we looked at June and December averages from the entire Oahu dataset:
 Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (full dataset, not limited to one year)
 
 
-<br />
+
+<br clear="all" />
 
 ## Further Analysis
 
@@ -79,6 +80,8 @@ Furthermore, limiting and charing the reported precipiation for each day in the 
 <br clear="all" />
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation81.png" align="left" width="636" height="150" alt ="graphic: Station 81 Precipitation">
 
+
+<br clear="all" />
 
 ## Summary & Further Considerations
 
