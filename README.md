@@ -17,7 +17,7 @@ After years of catching waves in North Carolina, attending surf camp in Costa Ri
 My investor supplied the data for a weather analysis. The data was contained in a sqlite database that, when mapped, revealed two main tables: Measurement(s) and Station(s). I began my initial analysis by looking at the precipitation numbers stored in the Measurements table.  Since my investor wanted to see a year of data -- and since I knew August 23, 2017 was the date he first went surfing and had ice cream on the same day (which goes with my surf and shake idea!),  I used that as an end date and counted back a year from there and took a peek at the precipitation in a plotted visual: 
 
 <br />
-<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation.png" align="left" width="400" height="162" alt ="graphic: Oahu Rain, 1 Year">
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/PrecipitationReadings.png" align="left" width="400" height="162" alt ="graphic: Oahu Rain, 1 Year">
 
 Fig. 1 (left): Oahu precipitiation from 8-23-2016 to 8-23-2017.
 
@@ -59,8 +59,22 @@ Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (f
 
 <br />
 
-## Sumarizing and Making an Analysis
+## Further Analysis
 
 While it's fantasitc how excited both I and my investor are in my business venture, our data is a little all over the place and needs to find some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
 
+### Station 81 Data:
+
+The reported June and December temperature information above was tallied from the entire dataset which contained multiple entries per day from each of the 9 stations on Oahu. The number of data points was inconsistent accross the entire set (some of the 9 stations reported every day, some didn't), but probably still gave us pretty good overall averages.  If we look at just the entries from Station 81 (USC00519281), we find that last year's temps ranged from a min temp of 59 to a max temp of 83 with a daily average of 73 degress. The frequency of each temp is charted in the figure below:
+
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-TobsFreq.png" align="left" width="416" height="272" alt ="graphic: Station 81 Temp Frequencies">
+
+The Station 81 (USC00519281) average daily precipiation for the past year was .2, with a max of 2.98 and a zero prcp minimum. Frequencies of those numbers are charted below:
+
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-PrcpFreq.png" align="left" width="416" height="272" alt ="graphic: Station 81 Precipitation Frequencies">
+
+
+## Summary & Further Considerations
+
+The analysis so far has revealed some great information about the station location we are most interested in for the Surf & Shake Shop and about Oahu weather conditions in general.  So far, there are no alarming issues.  For further consideration for our business plan though, we might also want to consider the times of the reported temperatures, tide times, and water temperatures.  These are the killer stats for surf enthusiasts!  If we drilled down enough on those stats, we might find ways to tailor our business plan for even greater success - everyone loves ice cream for sure... but coffee, donuts, and wet suit sales and/or rentals might also be great things to offer.  If the tide times match the rain times and the water hasn't yet heated up, we'll need more than ice cream! 
 
