@@ -64,16 +64,16 @@ Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (f
 While it's fantasitc how excited both I and my investor are in my business venture, our data is a little all over the place and needs to find some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
 
 ### Station 81 Data:
-<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-TobsFreq.png" align="right" width="416" height="272" alt ="graphic: Station 81 Temp Frequencies">
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-TobsFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Temp Frequencies">
 
 The reported June and December temperature information above was tallied from the entire dataset which contained multiple entries per day from each of the 9 stations on Oahu. The number of data points was inconsistent accross the entire set (some of the 9 stations reported every day, some didn't), but probably still gave us pretty good overall averages.  If we look at just the entries from Station 81 (USC00519281), we find that last year's temps ranged from a min temp of 59 to a max temp of 83 with a daily average of 73 degress. The frequency of each temp is charted in Fig. 3 on the right.
 
 The Station 81 (USC00519281) average daily precipiation for the past year was .2, with a max of 2.98 and a zero prcp minimum. Frequencies of those numbers are charted in Fig 4 on the right.
-<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-PrcpFreq.png" align="right" width="416" height="272" alt ="graphic: Station 81 Precipitation Frequencies">
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-PrcpFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Precipitation Frequencies">
 
 Furthermore, limiting and charing the reported precipiation for each day in the past year at our target station reveals a clearer picture of rainfall in this location:
 
-<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation81.png" align="right" width="848" height="200" alt ="graphic: Station 81 Precipitation">
+<img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation81.png" align="right" width="636" height="150" alt ="graphic: Station 81 Precipitation">
 
 
 ## Summary & Further Considerations
