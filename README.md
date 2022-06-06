@@ -48,7 +48,10 @@ First we looked at June and December averages from the entire dataset:
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/DecemberTemps.png" align="left" width="186" height="262" alt ="graphic: Dec Temps">
 
 Figs. 2 & 3
+
 (left) June & December Temperature Details
+
+<br />
 
 ## Sumarizing and Making an Analysis
 
