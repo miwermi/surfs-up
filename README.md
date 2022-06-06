@@ -24,10 +24,11 @@ Cowabunga! There are obviously a few standouts. In looking closer at the data, I
     FROM measurement GROUP BY measurement.station ORDER BY count(measurement.station) DESC
 
 but since I was writing in python, it looked like this:
+
     session.query(Measurement.station, func.count(Measurement.station)).\
     group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
     
-The query revealed exactly what I wanted to see, a list of station ids and the number of data points reported by each:
+The query revealed exactly what I wanted to see, a list of station ids and the number of data points reported by each in descending order:
 
     [('USC00519281', 2772),
      ('USC00519397', 2724),
@@ -39,3 +40,4 @@ The query revealed exactly what I wanted to see, a list of station ids and the n
      ('USC00517948', 1372),
      ('USC00518838', 511)]
 
+Station USC00519281 is the one I'll dive deeper on.
