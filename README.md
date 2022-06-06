@@ -16,9 +16,10 @@ My investor supplied the data for a weather analysis. The data was contained in 
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation.png" align="left" width="400" height="162" alt ="graphic: Oahu Rain, 1 Year">
 
+<br />
 Fig. 1 (left): Oahu precipitiation from 8-23-2016 to 8-23-2017.
 
-Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. My investor decided I should use the station with the most data recorded. More data doesn't always mean better data, but I definitely want to prioritize my potential investor's interests! I used the query below to order and group the station data:
+Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. My investor thinks I should use the station with the most data recorded. More data doesn't always mean better data, but I definitely want to prioritize my potential investor's interests! I used the query below to order and group the station data:
 
     SELECT measurement.station AS measurement_station, count(measurement.station) AS count_1 
     FROM measurement GROUP BY measurement.station ORDER BY count(measurement.station) DESC
@@ -42,7 +43,7 @@ The query revealed exactly what I wanted to see, a list of station ids and the n
 
 Station USC00519281, with 2772 points of data, is the station with the most points of data - AND it's a great surf spot! This is where we want to open the Surf & Shake Shop.  Next, my investor wanted me to created some temperature charts.  
 
-First we looked at June and December averages from the entire dataset:
+First we looked at June and December averages from the entire Oahu dataset:
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/JuneTemps.png" align="left" width="186" height="262" alt ="graphic: June Temps">
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/DecemberTemps.png" align="left" width="186" height="262" alt ="graphic: Dec Temps">
