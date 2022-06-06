@@ -47,6 +47,11 @@ First we looked at June and December averages from the entire dataset:
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/JuneTemps.png" align="left" width="186" height="262" alt ="graphic: June Temps">
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/DecemberTemps.png" align="left" width="186" height="262" alt ="graphic: Dec Temps">
 
-Figs. 2 & 3 June & December Temperature Details
+Figs. 2 & 3
+(left) June & December Temperature Details
+
+## Sumarizing and Making an Analysis
+
+While my investory and I are obviously very excited, our data is a little all over the place.  We needed to decide whether to restrict it to the station whre the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and preciptation totals at each one individually and compare averages (regardless of data points).  For starters, and since the board meeting is coming up, I'll wrangle everythign I can for the spot we are most interested in.
 
 
