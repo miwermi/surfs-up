@@ -21,7 +21,7 @@ My investor supplied the data for a weather analysis. The data was contained in 
 
 Fig. 1 (left): Oahu precipitiation from 8-23-2016 to 8-23-2017.
 
-<br />
+<br clear="all" />
 Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. 
 
 My investor thinks I should use the station with the most data recorded. More data doesn't always mean better data, but I definitely want to prioritize my potential investor's interests! I used the query below to order and group the station data:
