@@ -62,7 +62,7 @@ Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (f
 
 ## Location Specific Analysis
 
-While it's fantastic how excited both I and my investor are in my business venture, our data results need some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
+While it's fantastic how excited both I and my investor are in my business venture, our data results need some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
 
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-TobsFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Temp Frequencies">
@@ -82,11 +82,11 @@ Furthermore, limiting and charting the reported precipitation for each day in th
 <br clear="all" />
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation81.png" align="left" width="636" height="150" alt ="graphic: Station 81 Precipitation">
 
-Fig 6. Station 81 (USC00519281): Reported Daily Precipitiation from 8/23/2016 - 8/23/2017
+Fig 6. Station 81 (USC00519281): Reported Daily Precipitation from 8/23/2016 - 8/23/2017
 
 <br clear="all" />
 
 ## Initial Analysis Summary & Further Considerations
 
-The analysis so far has revealed some great information about the station location we are most interested in for the Surf & Shake Shop and about Oahu weather conditions in general.  So far, there are no alarming issues. Rainfall is typical of beach locations with a mimimal amount falling often, but most likely not ruining the day. For further consideration for our business plan though, we might also want to consider not just the dates, but also the times of the reported information and water temperatures - that way we could make comparisons to tide times.  These are the killer stats for surf enthusiasts!  If we drilled down enough on those stats, we might find ways to tailor our business plan for even greater success - everyone loves ice cream for sure, and shake shops... but coffee, donuts, and wet suit sales and/or rentals might also be great things to offer.  If the tide times match the rain times and the water hasn't yet heated up, we'll need more than ice cream! 
+The analysis so far has revealed some great information about the station location we are most interested in for the Surf & Shake Shop and about Oahu weather conditions in general.  So far, there are no alarming issues. Rainfall is typical of beach locations with a minimal amount falling often, but most likely not ruining the day. For further consideration for our business plan though, we might also want to consider not just the dates, but also the times of the reported information and water temperatures - that way we could make comparisons to tide times.  These are the killer stats for surf enthusiasts!  If we drilled down enough on those stats, we might find ways to tailor our business plan for even greater success - everyone loves ice cream for sure, and shake shops... but coffee, donuts, and wet suit sales and/or rentals might also be great things to offer.  If the tide times match the rain times and the water hasn't yet heated up, we'll need more than ice cream! 
 
