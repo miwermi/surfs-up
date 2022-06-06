@@ -62,7 +62,7 @@ Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (f
 
 ## Location Specific Analysis
 
-While it's fantasitc how excited both I and my investor are in my business venture, our data is a little all over the place and needs to find some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
+While it's fantasitc how excited both I and my investor are in my business venture, our data results need some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
 
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-TobsFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Temp Frequencies">
