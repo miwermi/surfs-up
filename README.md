@@ -19,7 +19,7 @@ My investor supplied the data for a weather analysis. The data was contained in 
 <br />
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/PrecipitationReadings.png" align="left" width="400" height="162" alt ="graphic: Oahu Rain, 1 Year">
 
-Fig. 1 (left): Oahu precipitiation from 8-23-2016 to 8-23-2017.
+Fig. 1 (left): All Oahu precipitation readings from 8-23-2016 to 8-23-2017.
 
 Cowabunga! There are obviously a few standouts. Looking more closely at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. 
 <br clear="all" />
@@ -62,27 +62,27 @@ Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (f
 
 ## Location Specific Analysis
 
-While it's fantasitc how excited both I and my investor are in my business venture, our data results need some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
+While it's fantastic how excited both I and my investor are in my business venture, our data results need some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
 
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-TobsFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Temp Frequencies">
 
 ### Station 81 Data:
 
-The reported June and December temperature information above was tallied from the entire dataset which contained multiple entries per day from each of the 9 stations on Oahu. The number of data points was inconsistent accross the entire set (some of the 9 stations reported every day, some didn't), but probably still gave us pretty good overall averages.  If we look at just the entries from Station 81 (USC00519281), we find that last year's temps ranged from a min temp of 59 to a max temp of 83 with a daily average of 73 degress. The frequency of each temp is charted in Fig. 4 on the right.
+The reported June and December temperature information above was tallied from the entire dataset which contained multiple entries per day from each of the 9 stations on Oahu. The number of data points was inconsistent across the entire set (some of the 9 stations reported every day, some didn't), but probably still gave us pretty good overall averages.  If we look at just the entries from Station 81 (USC00519281), we find that last year's temps ranged from a min temp of 59 to a max temp of 83 with a daily average of 73 degrees. The frequency of each temp is charted in Fig. 4 on the right.
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Station81-PrcpFreq.png" align="right" width="277" height="181" alt ="graphic: Station 81 Precipitation Frequencies">
 
-The Station 81 (USC00519281) average daily precipiation for the past year was .2, with a max of 2.98 and a zero prcp minimum. Frequencies of those numbers are charted in Fig 5 on the right.
+The Station 81 (USC00519281) average daily precipitation for the past year was .2, with a max of 2.98 and a zero prcp minimum. Frequencies of those numbers are charted in Fig 5 on the right.
 
 At right: Figures 5 and 6, Station 81 (USC00519281) reported observed temps and precipitation (binned).
 
-Furthermore, limiting and charing the reported precipiation for each day in the past year at our target station reveals a clearer picture of rainfall in this location:
+Furthermore, limiting and charting the reported precipitation for each day in the past year at our target station reveals a clearer picture of rainfall in this location:
 
 <br clear="all" />
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation81.png" align="left" width="636" height="150" alt ="graphic: Station 81 Precipitation">
 
-Fig 6. Station 81 (USC00519281): Reported Daily Preciptiation from 8/23/2016 - 8/23/2017
+Fig 6. Station 81 (USC00519281): Reported Daily Precipitiation from 8/23/2016 - 8/23/2017
 
 <br clear="all" />
 
