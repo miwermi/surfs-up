@@ -18,4 +18,4 @@ My investor supplied the data for a weather analysis. The data was contained in 
 
 Fig. 1 (left): Oahu preciptiation from 8-23-2016 to 8-23-2017.
 
-Kowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. I decided to see which station had the most data points and go from there.
+Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. I decided to see which station had the most data points and go from there.
