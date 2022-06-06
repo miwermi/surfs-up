@@ -12,11 +12,11 @@ After years of catching waves in North Carolina, attending surf camp in Costa Ri
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/oahu-weather.png" align="right" width="500" height="293" alt ="graphic: Oahu Weather Graphic">
 
 ### Oahu Data:
-My investor supplied the data for a weather analysis. The data was contained in a sqlite database that, when mapped, revealed two main tables: Measurement(s) and Station(s). I began my initial analysis by looking at the precipitaion numbers stored in the Measurements table.  Since my investor wanted to see a year of data -- and since I knew August 23, 2017 was the date he first went surfing and had ice cream on the same day (which goes with my surf and shake idea!),  I used that as an end date and counted back a year from there and took a peek at the precipitation in a plotted visual: 
+My investor supplied the data for a weather analysis. The data was contained in a sqlite database that, when mapped, revealed two main tables: Measurement(s) and Station(s). I began my initial analysis by looking at the precipitation numbers stored in the Measurements table.  Since my investor wanted to see a year of data -- and since I knew August 23, 2017 was the date he first went surfing and had ice cream on the same day (which goes with my surf and shake idea!),  I used that as an end date and counted back a year from there and took a peek at the precipitation in a plotted visual: 
 
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/Precipitation.png" align="left" width="400" height="162" alt ="graphic: Oahu Rain, 1 Year">
 
-Fig. 1 (left): Oahu preciptiation from 8-23-2016 to 8-23-2017.
+Fig. 1 (left): Oahu precipitiation from 8-23-2016 to 8-23-2017.
 
 Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. My investor decided I should use the station with the most data recorded. More data doesn't always mean better data, but I definitely want to prioritize my potential investor's interests! I used the query below to order and group the station data:
 
@@ -52,6 +52,6 @@ Figs. 2 & 3
 
 ## Sumarizing and Making an Analysis
 
-While my investory and I are obviously very excited, our data is a little all over the place.  We needed to decide whether to restrict it to the station whre the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and preciptation totals at each one individually and compare averages (regardless of data points).  For starters, and since the board meeting is coming up, I'll wrangle everythign I can for the spot we are most interested in.
+While it's fantasitc how excited both I and my investor are in my business venture, our data is a little all over the place and needs to find some focus and consistency.  We need to decide whether to restrict it to the station where the shop will be (if that is 100% decided) - or take all of the stations into consideration, and look at temperatures and precipitation totals at each one individually, and then compare averages (regardless of data points).  For starters, and since the board meeting is coming up soon, I'll wrangle everything I can for the spot we are most interested in.
 
 
