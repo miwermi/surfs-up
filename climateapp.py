@@ -43,13 +43,12 @@ def welcome():
     return(
     '''
     <h1>Welcome to the Climate Analysis API!</h1>
-    <p>Available Routes:</p>
-    <ul>
-    <li><a href="/api/v1.0/precipitation">/api/v1.0/precipitation</a></li>
-    <li><a href="/api/v1.0/stations">/api/v1.0/stations</a></li>
-    <li><a href="/api/v1.0/tobs">/api/v1.0/tobs</a></li>
-    <li><a href="/api/v1.0/temp/start/end">/api/v1.0/temp/start/end</a></li>
-    </ul>
+    Available Routes:<br />
+        /api/v1.0/precipitation<br />
+        /api/v1.0/stations<br />
+        /api/v1.0/tobs<br />
+        /api/v1.0/temp/start/end<br />
+
     ''')
 
 
