@@ -53,7 +53,9 @@ First we looked at June and December averages from the entire Oahu dataset:
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/JuneTemps.png" align="left" width="186" height="262" alt ="graphic: June Temps">
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/DecemberTemps.png" align="left" width="186" height="262" alt ="graphic: Dec Temps">
 
-Figs. 2 & 3 (left): June & December Temperature Details
+<br />
+Figs. 2 & 3 (left): June & December Temperature Details for all Oahu Stations (full dataset, not limited to one year)
+
 
 <br />
 
