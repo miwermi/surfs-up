@@ -14,7 +14,7 @@ After years of catching waves in North Carolina, attending surf camp in Costa Ri
 
 ### Oahu Data:
 
-My investor supplied the data for a weather analysis. The data was observed weather readings from stations all over Oahu. The data was contained in a sqlite database that, when mapped, revealed two main tables: Measurement(s) and Station(s). I began my initial analysis by looking at the precipitation numbers stored in the Measurements table.  Since my investor wanted to see a year of data -- and since I knew August 23, 2017 was the date he first went surfing and had ice cream on the same day (which goes with my surf and shake idea!) --  I used that date as an end date, counted back a year from there, and took a peek at the precipitation in a plotted visual: 
+My investor supplied the data for a weather analysis consisting of observed weather readings from stations all over Oahu. The data was contained in a sqlite database that, when mapped, revealed two main tables: Measurement(s) and Station(s). I began my initial analysis by looking at the precipitation numbers stored in the Measurements table.  Since my investor wanted to see a year of data -- and since I knew August 23, 2017 was the date he first went surfing and had ice cream on the same day (which goes with my surf and shake idea!) --  I used that date as an end date, counted back a year from there, and took a peek at the precipitation in a plotted visual: 
 
 <br />
 <img src="https://github.com/miwermi/surfs-up/blob/main/graphics/PrecipitationReadings.png" align="left" width="400" height="162" alt ="graphic: Oahu Rain, 1 Year">
