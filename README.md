@@ -18,4 +18,24 @@ My investor supplied the data for a weather analysis. The data was contained in 
 
 Fig. 1 (left): Oahu preciptiation from 8-23-2016 to 8-23-2017.
 
-Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. I decided to see which station had the most data points and go from there.
+Cowabunga! There are obviously a few standouts. In looking closer at the data, I realized that the stations don't always return data exactly at consistently reliable intervals. That could skew my analysis. I decided to see which station had the most data points and go from there. I used the query below to order and group the station data:
+
+    SELECT measurement.station AS measurement_station, count(measurement.station) AS count_1 
+    FROM measurement GROUP BY measurement.station ORDER BY count(measurement.station) DESC
+
+but since I was writing in python, it looked like this:
+    session.query(Measurement.station, func.count(Measurement.station)).\
+    group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
+    
+The query revealed exactly what I wanted to see, a list of station ids and the number of data points reported by each:
+
+    [('USC00519281', 2772),
+     ('USC00519397', 2724),
+     ('USC00513117', 2709),
+     ('USC00519523', 2669),
+     ('USC00516128', 2612),
+     ('USC00514830', 2202),
+     ('USC00511918', 1979),
+     ('USC00517948', 1372),
+     ('USC00518838', 511)]
+
